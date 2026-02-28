@@ -28,3 +28,4 @@
 ## Endpoints utiles
 - `/api/health` → santé service
 - `/env` → injecte les variables env dans le frontend
+mise à jour
