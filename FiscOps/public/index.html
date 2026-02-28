@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FiscOps — DGI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { dgi: { 600:"#2563eb", 700:"#1d4ed8" } } } }
+    }
+  </script>
+  <link rel="icon" href="/assets/logo.svg">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div id="app"></div>
+  <script src="/env"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
